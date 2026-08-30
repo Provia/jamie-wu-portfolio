@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import { bio } from "../data/site";
+---
+
+<Layout title="Bio — Jamie Wu">
+  <Header variant="detail" />
+
+  <main class="bio">
+    <section class="bio-text">
+      {bio.body.map((para) => (
+        <p>{para}</p>
+      ))}
+    </section>
+
+    <section class="contact">
+      <p>{bio.contact.email}</p>
+      <p>{bio.contact.location}</p>
+      <p>{bio.contact.instagram}</p>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .bio {
+    padding: 4rem 2.5rem 6rem;
+  }
+
+  .bio-text {
+    max-width: 34rem;
+    margin: 0 auto 4rem;
+  }
+
+  .bio-text p {
+    margin: 0 0 1.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  .contact {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .contact p {
+    margin: 0 0 0.5rem;
+    font-size: 0.9375rem;
+    opacity: var(--muted-opacity);
+  }
+
+  .contact p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    .bio {
+      padding: 2.5rem 1.25rem 4rem;
+    }
+  }
+</style>

@@ -1,0 +1,26 @@
+---
+import type { Aspect } from "../data/site";
+
+interface Props {
+  aspect: Aspect;
+}
+
+const { aspect } = Astro.props;
+
+const ratios: Record<Aspect, string> = {
+  portrait: "3 / 4",
+  landscape: "4 / 3",
+  panoramic: "16 / 7",
+  square: "1 / 1",
+};
+---
+
+<div class="placeholder" style={`aspect-ratio: ${ratios[aspect]};`}></div>
+
+<style>
+  .placeholder {
+    width: 100%;
+    background-color: var(--image-fill);
+    border: 1px solid var(--image-edge);
+  }
+</style>

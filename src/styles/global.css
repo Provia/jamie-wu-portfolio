@@ -1,0 +1,51 @@
+:root {
+  --bg: #f4efe4;
+  --text: #171411;
+
+  --image-fill: #e0d8c8;
+  --image-edge: #cdc4b2;
+  --rule: #d8cfbe;
+
+  --muted-opacity: 0.58;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+
+  font-family:
+    "Cormorant Garamond",
+    "EB Garamond",
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.55;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
