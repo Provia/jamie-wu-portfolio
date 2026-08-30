@@ -45,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     slug: "chang-jiang",
-    title: "Chang Jiang River and Her People",
+    title: "Chang Jiang River ",
     year: "December 2023 - current",
     cover: "images/chang-jiang/something.jpg",
     summary:
