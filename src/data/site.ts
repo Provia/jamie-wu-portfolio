@@ -28,8 +28,8 @@ export const artist = {
 
 export const projects: Project[] = [
   {
-    slug: "untitled-studies-i",
-    title: "Untitled Studies (I)",
+    slug: "drunk-glasses",
+    title: "Drunk Glasses",
     year: "2024",
     cover: "images/other-examples/delta100-001.jpg",
     summary:
@@ -45,11 +45,11 @@ export const projects: Project[] = [
   },
   {
     slug: "chang-jiang",
-    title: "Chang Jiang River ",
+    title: "From Changjiang River——Flowing, Aligning, Being",
     year: "December 2023 - current",
     cover: "images/chang-jiang/something.jpg",
     summary:
-      "A body of work made over several months in a single coastal landscape. Dummy placeholder text for the project summary.",
+      "Shot on portable 135mm film, this is a documentary revisit. Returning home after four years, I found the river unchanged while everything had moved on. Tracing the water—from my birthplace, through the neighborhood I left, to where my parents and grandparents originated—I gathered unheard family stories into a tangled feeling.",
     images: [
       { src: "images/chang-jiang/Flowing, Aligning, Being_1.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
       { src: "images/chang-jiang/Flowing, Aligning, Being_2.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
