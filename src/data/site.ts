@@ -36,12 +36,15 @@ export const projects: Project[] = [
     summary:
       "Drunk Glasses begins in the body—the sway of walking home intoxicated, streets doubling through unfocused eyes. That sensation passes through private reflection before arriving here as image. The work renders an interior state as optical distortion, not documentation.",
     images: [
-      { aspect: "portrait", captionLine1: "Untitled Studies (I), Plate 01", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "landscape", captionLine1: "Untitled Studies (I), Plate 02", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "panoramic", captionLine1: "Untitled Studies (I), Plate 03", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "square", captionLine1: "Untitled Studies (I), Plate 04", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "portrait", captionLine1: "Untitled Studies (I), Plate 05", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "landscape", captionLine1: "Untitled Studies (I), Plate 06", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_1.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_2.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_3.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_4.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" }, 
+      { src: "public/images/drunk-glasses/drunk_glasses_5.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_6.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_7.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_8.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "public/images/drunk-glasses/drunk_glasses_9.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
     ],
   },
   {
