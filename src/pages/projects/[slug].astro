@@ -30,6 +30,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <p class="summary">{project.summary}</p>
     </header>
 
+    {project.youtubeId && (
+      <section class="video-section">
+        <div class="video-frame">
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${project.youtubeId}`}
+            title={`${project.title} video`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    )}
+
   <section class="gallery" aria-label="Project images">
   {project.images.map((image) => (
     <figure class="plate">
@@ -90,6 +103,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     font-size: 1.0625rem;
     line-height: 1.55;
   }
+  
 
   .gallery {
     display: grid;
@@ -137,5 +151,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       grid-template-columns: 1fr;
       gap: 2.5rem;
     }
+  }
+
+  .video-section {
+    margin: 0 0 5rem;
+  }
+  
+  .video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+  
+  .video-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 </style>
