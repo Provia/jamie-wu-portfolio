@@ -34,7 +34,7 @@ export const projects: Project[] = [
     year: "2024",
     cover: "images/other-examples/delta100-001.jpg",
     summary:
-      "An ongoing series of studies examining light, surface, and the quiet interval between objects. Dummy placeholder text for the project summary.",
+      "Drunk Glasses begins in the body—the sway of walking home intoxicated, streets doubling through unfocused eyes. That sensation passes through private reflection before arriving here as image. The work renders an interior state as optical distortion, not documentation.",
     images: [
       { aspect: "portrait", captionLine1: "Untitled Studies (I), Plate 01", captionLine2: "dummy caption placeholder line two" },
       { aspect: "landscape", captionLine1: "Untitled Studies (I), Plate 02", captionLine2: "dummy caption placeholder line two" },
