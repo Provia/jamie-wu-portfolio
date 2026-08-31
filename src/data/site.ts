@@ -55,7 +55,7 @@ export const projects: Project[] = [
         captionLine1: "Chang Jiang, 2026",
         captionLine2: "Placeholder caption" 
       },
-      { aspect: "square", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_1.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
       { aspect: "panoramic", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
       { aspect: "portrait", captionLine1: "Fields of Quiet, Plate 04", captionLine2: "dummy caption placeholder line two" },
       { aspect: "landscape", captionLine1: "Fields of Quiet, Plate 05", captionLine2: "dummy caption placeholder line two" },
