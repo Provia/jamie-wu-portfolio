@@ -14,6 +14,7 @@ export interface ProjectImage {
 export interface Project {
   slug: string;
   title: string;
+  titleLine2?: string;
   year: string;
   summary: string;
   images: ProjectImage[];
@@ -45,7 +46,8 @@ export const projects: Project[] = [
   },
   {
     slug: "chang-jiang",
-    title: "From Changjiang River——Flowing, Aligning, Being",
+    title: "From Changjiang River",
+    titleLine2: "— Flowing, Aligning, Being",
     year: "December 2023 - current",
     cover: "images/chang-jiang/something.jpg",
     summary:
