@@ -63,12 +63,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "after-the-rain",
-    title: "After the Rain",
+    slug: "light",
+    title: "Light",
     year: "2024",
     cover: "images/other-examples/000048390029.jpg",
     summary:
-      "Photographs made in the hours immediately following rainfall. Dummy placeholder text for the project summary.",
+      "Light, a handmade 64-page photobook, follows my continuing inquiry into how light carries feeling—from natural light's quiet permanence to the city's restless glow. Moving between reflection and record, it extends a practice where photographs hold what words cannot: the shift from land to street, from memory to now.",
     images: [
       { 
         aspect: "portrait",
