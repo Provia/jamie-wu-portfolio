@@ -69,7 +69,7 @@ export const projects: Project[] = [
     slug: "light",
     title: "Light",
     year: "2024",
-    cover: "images/other-examples/000048390029.jpg",
+    
     summary:
       "Light, a handmade 64-page photobook, follows my continuing inquiry into how light carries feeling—from natural light's quiet permanence to the city's restless glow. Moving between reflection and record, it extends a practice where photographs hold what words cannot: the shift from land to street, from memory to now.",
     images: [
