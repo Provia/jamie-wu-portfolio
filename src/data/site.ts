@@ -17,6 +17,7 @@ export interface Project {
   titleLine2?: string;
   year: string;
   summary: string;
+  youtubeId?: string;
   images: ProjectImage[];
 }
 
