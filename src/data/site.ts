@@ -33,7 +33,7 @@ export const projects: Project[] = [
     slug: "drunk-glasses",
     title: "Drunk Glasses",
     year: "2024",
-    cover: "public/images/drunk-glasses/drunk_glasses_1.jpg",
+    cover: "images/drunk-glasses/drunk_glasses_1.jpg",
     summary:
       "Drunk Glasses begins in the body—the sway of walking home intoxicated, streets doubling through unfocused eyes. That sensation passes through private reflection before arriving here as image. The work renders an interior state as optical distortion, not documentation.",
     images: [
