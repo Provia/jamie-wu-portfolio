@@ -29,13 +29,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       <p class="year">{project.year}</p>
       <p class="summary">{project.summary}</p>
     </header>
-
+    
     {project.youtubeId && (
       <section class="video-section">
         <div class="video-frame">
           <iframe
-            src={`https://www.youtube-nocookie.com/embed/${project.youtubeId}`}
+            src={`https://www.youtube.com/embed/${project.youtubeId}`}
             title={`${project.title} video`}
+            referrerpolicy="strict-origin-when-cross-origin"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
