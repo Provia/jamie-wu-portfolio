@@ -76,6 +76,7 @@ export const projects: Project[] = [
     
     summary:
       "Light, a handmade 64-page photobook, follows my continuing inquiry into how light carries feeling—from natural light's quiet permanence to the city's restless glow. Moving between reflection and record, it extends a practice where photographs hold what words cannot: the shift from land to street, from memory to now.",
+    youtubeId: "aqz-KE-bpKQ",
     images: [
       { 
         aspect: "portrait",
