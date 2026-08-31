@@ -51,15 +51,16 @@ export const projects: Project[] = [
     summary:
       "A body of work made over several months in a single coastal landscape. Dummy placeholder text for the project summary.",
     images: [
-      { src: "images/chang-jiang/01.jpg",
-        captionLine1: "Chang Jiang, 2026",
-        captionLine2: "Placeholder caption" 
-      },
       { src: "images/chang-jiang/Flowing, Aligning, Being_1.jpg", captionLine1: "Fields of Quiet, Plate 02", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "panoramic", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "portrait", captionLine1: "Fields of Quiet, Plate 04", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "landscape", captionLine1: "Fields of Quiet, Plate 05", captionLine2: "dummy caption placeholder line two" },
-      { aspect: "square", captionLine1: "Fields of Quiet, Plate 06", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_2.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_3.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_4.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_5.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_6.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_7.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_8.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_9.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
+      { src: "images/chang-jiang/Flowing, Aligning, Being_10.jpg", captionLine1: "Fields of Quiet, Plate 03", captionLine2: "dummy caption placeholder line two" },
     ],
   },
   {
